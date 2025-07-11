@@ -76,7 +76,7 @@ const HeroSection = () => {
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
               {stats.map((stat, index) => (
                 <div key={index} className="text-center lg:text-left">
-                  <div className="text-2xl lg:text-3xl font-bold text-gradient">{stat.number}</div>
+                  <div className="text-2xl lg:text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">{stat.number}</div>
                   <div className="text-sm text-slate-600">{stat.label}</div>
                 </div>
               ))}
