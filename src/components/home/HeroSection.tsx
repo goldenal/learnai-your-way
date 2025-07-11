@@ -41,19 +41,26 @@ const HeroSection = () => {
 
             <h1 className="text-4xl lg:text-6xl xl:text-7xl font-bold mb-6 leading-tight">
               Learn
-              <span className="text-gradient block">Anything,</span>
+              <span className="block bg-gradient-to-r from-blue-600 via-purple-600 to-blue-400 bg-clip-text text-transparent font-extrabold drop-shadow-md">Anything,</span>
               <span className="text-slate-700">Your Way</span>
             </h1>
 
             <p className="text-xl lg:text-2xl text-slate-600 mb-8 max-w-2xl">
               Our AI transforms every course to match your interests. 
-              Learn data science through football, programming through cooking, 
+              Learn courses like data science through football, programming through cooking, 
               or any topic through what you love most.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <Link to="/register">
-                <Button size="lg" className="gradient-primary text-lg px-8 py-4 hover-lift animate-pulse-glow">
+                <Button
+                  size="lg"
+                  className="text-lg px-8 py-4 hover-lift font-bold shadow-lg border-2 border-blue-700 bg-blue-700 text-white hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 transition-all duration-200"
+                  style={{
+                    background: 'linear-gradient(90deg, #2563eb 0%, #7c3aed 100%)', // blue-600 to purple-600 (brand colors)
+                    color: '#fff',
+                  }}
+                >
                   Start Learning Free
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Button>
@@ -135,7 +142,7 @@ const HeroSection = () => {
 
               <div className="mt-6 text-center">
                 <Link to="/courses">
-                  <Button className="w-full gradient-secondary hover-lift">
+                  <Button className="w-full bg-gradient-to-r from-blue-500 via-purple-500 to-blue-700 text-white font-semibold shadow-lg hover:from-blue-600 hover:to-purple-600 hover:scale-105 transition-all duration-300 border-0">
                     Explore All Courses
                   </Button>
                 </Link>

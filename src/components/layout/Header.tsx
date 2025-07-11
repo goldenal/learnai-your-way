@@ -39,8 +39,12 @@ const Header = () => {
               <BookOpen className="w-6 h-6 text-white" />
             </div>
             <div>
-              <span className="text-xl lg:text-2xl font-bold text-gradient">LearnAI</span>
-              <div className="text-xs text-muted-foreground hidden sm:block">Learn Anything, Your Way</div>
+              <span className="text-2xl lg:text-3xl font-extrabold bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-transparent drop-shadow-lg tracking-tight">
+                LearnAI
+              </span>
+              <div className="text-sm text-gray-700 font-semibold mt-1 hidden sm:block drop-shadow-sm">
+                Learn Anything, Your Way
+              </div>
             </div>
           </Link>
 
