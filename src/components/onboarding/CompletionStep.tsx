@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { 
   CheckCircle,
   Sparkles,
@@ -287,13 +287,15 @@ const CompletionStep = () => {
         >
           Back to Courses
         </Button>
+     
         <Button
           variant="ghost"
-          onClick={() => navigate('/')}
+          onClick={() => navigate('/dashboard')}
           className="text-slate-500"
         >
           Skip for Now
         </Button>
+    
       </div>
     </div>
   );
