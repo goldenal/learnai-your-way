@@ -82,7 +82,7 @@ const HeroSection = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <Link to="/register">
+              <Link to="/onboarding/welcome">
                 <Button
                   size="lg"
                   className="text-lg px-8 py-4 hover-lift font-bold shadow-lg border-2 border-blue-700 bg-blue-700 text-white hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 transition-all duration-200"

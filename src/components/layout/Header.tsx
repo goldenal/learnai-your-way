@@ -70,7 +70,7 @@ const Header = () => {
                 Sign In
               </Button>
             </Link>
-            <Link to="/register">
+            <Link to="/onboarding/welcome">
               <Button
                 className="font-medium hover-lift text-white shadow-lg px-6 py-2"
                 style={{
@@ -114,7 +114,7 @@ const Header = () => {
                     Sign In
                   </Button>
                 </Link>
-                <Link to="/register" onClick={() => setIsMenuOpen(false)} className="block">
+                <Link to="/onboarding/welcome" onClick={() => setIsMenuOpen(false)} className="block">
                   <Button className="w-full gradient-primary">
                     Start Learning
                   </Button>
