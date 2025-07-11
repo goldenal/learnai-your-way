@@ -33,7 +33,7 @@ export const ProgressOverview = () => {
   ];
 
   return (
-    <Card>
+    <Card >
       <CardHeader>
         <CardTitle className="flex items-center space-x-2">
           <TrendingUp className="w-5 h-5 text-blue-600" />
