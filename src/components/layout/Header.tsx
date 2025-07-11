@@ -70,7 +70,7 @@ const Header = () => {
                 Sign In
               </Button>
             </Link>
-            <Link to="/onboarding">
+            <Link to="/register">
               <Button className="gradient-primary font-medium hover-lift">
                 Start Learning
               </Button>
@@ -108,7 +108,7 @@ const Header = () => {
                     Sign In
                   </Button>
                 </Link>
-                <Link to="/onboarding" onClick={() => setIsMenuOpen(false)} className="block">
+                <Link to="/register" onClick={() => setIsMenuOpen(false)} className="block">
                   <Button className="w-full gradient-primary">
                     Start Learning
                   </Button>
