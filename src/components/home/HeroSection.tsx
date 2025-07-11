@@ -1,11 +1,21 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Play, Sparkles, TrendingUp, Users, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   const [selectedInterest, setSelectedInterest] = useState('football');
+  // Animated headline words
+  const animatedWords = ['Photography', 'Tech Skills', 'Music', 'Anything'];
+  const [currentWordIndex, setCurrentWordIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentWordIndex((prev) => (prev + 1) % animatedWords.length);
+    }, 3500); // even slower interval for more visible sliding
+    return () => clearInterval(interval);
+  }, [animatedWords.length]);
 
   const interests = [
     { id: 'football', label: 'Football Stats', description: 'Learn data science through player analytics and match statistics' },
@@ -41,7 +51,27 @@ const HeroSection = () => {
 
             <h1 className="text-4xl lg:text-6xl xl:text-7xl font-bold mb-6 leading-tight">
               Learn
-              <span className="block bg-gradient-to-r from-blue-600 via-purple-600 to-blue-400 bg-clip-text text-transparent font-extrabold drop-shadow-md">Anything,</span>
+              <span className="block relative h-[1.2em] overflow-hidden" style={{ minHeight: '1em' }}>
+                {animatedWords.map((word, idx) => (
+                  <span
+                    key={word}
+                    className={`absolute left-0 w-full bg-gradient-to-r from-blue-600 via-purple-600 to-blue-400 bg-clip-text text-transparent font-extrabold drop-shadow-md transition-transform duration-600 ease-in-out ${
+                      idx === currentWordIndex
+                        ? 'translate-y-0 opacity-100'
+                        : '-translate-y-full opacity-0 pointer-events-none'
+                    }`}
+                    style={{
+                      transitionProperty: 'transform, opacity',
+                      transitionDuration: '1200ms',
+                      top: 0,
+                      transitionTimingFunction: 'ease-in',
+                    }}
+                    aria-hidden={idx !== currentWordIndex}
+                  >
+                    {word},
+                  </span>
+                ))}
+              </span>
               <span className="text-slate-700">Your Way</span>
             </h1>
 

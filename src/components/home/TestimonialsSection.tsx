@@ -77,7 +77,7 @@ const TestimonialsSection = () => {
           </div>
           
           <h2 className="text-3xl lg:text-5xl font-bold mb-6">
-            What Our <span className="text-gradient">Learners</span> Say
+            What Our <span className="bg-gradient-to-r from-green-500 via-blue-500 to-purple-500 bg-clip-text text-transparent font-extrabold">Learners</span> Say
           </h2>
           
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
@@ -141,19 +141,27 @@ const TestimonialsSection = () => {
         <div className="mt-16 lg:mt-20 bg-gradient-to-r from-blue-50 to-purple-50 rounded-3xl p-8 lg:p-12 border border-blue-100">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-3xl lg:text-4xl font-bold text-gradient mb-2">50,000+</div>
+              <div className="text-3xl lg:text-4xl font-bold mb-2 bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-transparent drop-shadow-md">
+                50,000+
+              </div>
               <div className="text-slate-600">Happy Learners</div>
             </div>
             <div>
-              <div className="text-3xl lg:text-4xl font-bold text-gradient mb-2">4.9/5</div>
+              <div className="text-3xl lg:text-4xl font-bold mb-2 bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-transparent drop-shadow-md">
+                4.9/5
+              </div>
               <div className="text-slate-600">Average Rating</div>
             </div>
             <div>
-              <div className="text-3xl lg:text-4xl font-bold text-gradient mb-2">95%</div>
+              <div className="text-3xl lg:text-4xl font-bold mb-2 bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-transparent drop-shadow-md">
+                95%
+              </div>
               <div className="text-slate-600">Completion Rate</div>
             </div>
             <div>
-              <div className="text-3xl lg:text-4xl font-bold text-gradient mb-2">1000+</div>
+              <div className="text-3xl lg:text-4xl font-bold mb-2 bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-transparent drop-shadow-md">
+                1000+
+              </div>
               <div className="text-slate-600">AI-Generated Courses</div>
             </div>
           </div>

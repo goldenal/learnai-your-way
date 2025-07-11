@@ -71,7 +71,13 @@ const Header = () => {
               </Button>
             </Link>
             <Link to="/register">
-              <Button className="gradient-primary font-medium hover-lift">
+              <Button
+                className="font-medium hover-lift text-white shadow-lg px-6 py-2"
+                style={{
+                  background: 'linear-gradient(90deg, #2563eb 0%, #7c3aed 50%, #ec4899 100%)', // blue-600, purple-600, pink-500
+                  border: 'none',
+                }}
+              >
                 Start Learning
               </Button>
             </Link>

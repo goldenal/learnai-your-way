@@ -53,7 +53,7 @@ const FeaturesSection = () => {
           </div>
           
           <h2 className="text-3xl lg:text-5xl font-bold mb-6">
-            Why <span className="text-gradient">LearnAI</span> Works
+            Why <span className="bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-transparent font-extrabold">LearnAI</span> Works
           </h2>
           
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
@@ -100,7 +100,7 @@ const FeaturesSection = () => {
               Start your journey today with a free trial.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="gradient-primary px-8 py-4 rounded-xl text-white font-semibold hover-lift transition-all duration-300">
+              <button className="px-8 py-4 rounded-xl text-white font-semibold hover-lift transition-all duration-300 bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 shadow-lg hover:from-blue-700 hover:to-pink-600">
                 Start Free Trial
               </button>
               <button className="bg-white px-8 py-4 rounded-xl font-semibold border border-slate-200 hover:border-blue-300 transition-all duration-300">
