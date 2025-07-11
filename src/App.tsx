@@ -8,6 +8,9 @@ import Index from "./pages/Index";
 import About from "./pages/About";
 import Onboarding from "./pages/Onboarding";
 import NotFound from "./pages/NotFound";
+import Dashboard from "./pages/Dashboard";
+import MyCourses from "./pages/MyCourses";
+import Explore from "./pages/Explore";
 
 const queryClient = new QueryClient();
 
@@ -21,6 +24,10 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
           <Route path="/onboarding/:step" element={<Onboarding />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/my-courses" element={<MyCourses />} />
+          <Route path="/explore" element={<Explore />} />
+          <Route path="/progress" element={<Dashboard />} />
           {/* Future routes */}
           <Route path="/how-it-works" element={<div>How It Works - Coming Soon</div>} />
           <Route path="/courses" element={<div>Courses - Coming Soon</div>} />
