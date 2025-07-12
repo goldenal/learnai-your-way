@@ -14,7 +14,7 @@ export const PersonalizedGreeting = () => {
         <div className="flex flex-col md:flex-row md:items-center md:justify-between">
           <div className="space-y-2">
             <h1 className="text-3xl font-bold">
-              Good {timeOfDay}, Sarah! ⚽
+              Good {timeOfDay}, Adewale! ⚽
             </h1>
             <p className="text-blue-100 text-lg">
               Ready to tackle today's Data Analysis through Football Statistics lesson?
