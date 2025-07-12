@@ -15,11 +15,13 @@ import {
   Volume2,
   Play,
   Pause,
-  RotateCcw,
+  Mic,
+  StopCircle,
   CheckCircle2,
   Target,
   Lightbulb,
-  BarChart3
+  BarChart3,
+  RotateCcw
 } from "lucide-react";
 
 const LessonInterface = () => {
@@ -27,6 +29,8 @@ const LessonInterface = () => {
   const [notes, setNotes] = useState("");
   const [chatMessage, setChatMessage] = useState("");
   const [isPlaying, setIsPlaying] = useState(false);
+  const [isRecording, setIsRecording] = useState(false);
+  const [audioURL, setAudioURL] = useState<string | null>(null);
   const [sectionProgress, setSectionProgress] = useState(65);
 
   const lessonSections = [
@@ -316,7 +320,37 @@ const LessonInterface = () => {
                   </div>
                 ))}
               </div>
-              <div className="space-y-2">
+              <div className="space-y-3">
+                {/* Voice Chat Controls */}
+                <div className="flex items-center space-x-2">
+                  {isRecording ? (
+                    <Button
+                      size="sm"
+                      variant="destructive"
+                      onClick={() => {
+                        // In a real app, stop recording and process audio
+                        setIsRecording(false);
+                        setAudioURL("https://www.example.com/recorded_audio.mp3"); // Replace with actual audio URL
+                      }}
+                    >
+                      <StopCircle className="h-4 w-4 mr-2" />
+                      Stop Live Chat
+                    </Button>
+                  ) : (
+                    <Button
+                      size="sm"
+                      variant="outline"
+                      onClick={() => {
+                        // In a real app, start recording
+                        setIsRecording(true);
+                      }}
+                    >
+                      <Mic className="h-4 w-4 mr-2" />
+                      Start Voice Chat
+                    </Button>
+                  )}
+                  {audioURL && <audio src={audioURL} controls />}
+                </div>
                 <Textarea 
                   placeholder="Ask me anything about QB stats - I'll explain using football examples!"
                   value={chatMessage}
