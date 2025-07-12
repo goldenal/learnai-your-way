@@ -11,6 +11,11 @@ import NotFound from "./pages/NotFound";
 import Dashboard from "./pages/Dashboard";
 import MyCourses from "./pages/MyCourses";
 import Explore from "./pages/Explore";
+import CourseDashboard from "./pages/CourseDashboard";
+import LessonInterface from "./pages/LessonInterface";
+import AssessmentPage from "./pages/AssessmentPage";
+import CourseResources from "./pages/CourseResources";
+import Layout from "./components/Layout";
 
 const queryClient = new QueryClient();
 
@@ -28,6 +33,14 @@ const App = () => (
           <Route path="/my-courses" element={<MyCourses />} />
           <Route path="/explore" element={<Explore />} />
           <Route path="/progress" element={<Dashboard />} />
+
+          <Route path="/courses/:courseId" element={<Layout />}>
+    <Route path="dashboard" element={<CourseDashboard />} />
+    <Route path="lessons/:lessonId" element={<LessonInterface />} />
+    <Route path="assessments/:assessmentId" element={<AssessmentPage />} />
+    <Route path="resources" element={<CourseResources />} />
+  </Route>
+          
           {/* Future routes */}
           <Route path="/how-it-works" element={<div>How It Works - Coming Soon</div>} />
           <Route path="/courses" element={<div>Courses - Coming Soon</div>} />

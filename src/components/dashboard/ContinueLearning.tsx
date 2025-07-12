@@ -3,6 +3,7 @@ import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Play, Clock, CheckCircle } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 export const ContinueLearning = () => {
   const lastLesson = {
@@ -19,6 +20,8 @@ export const ContinueLearning = () => {
     { label: "Weekend deep dive", time: "2 hours", icon: "📚" },
     { label: "Quick review", time: "5 min", icon: "⚡" }
   ];
+
+  const navigate = useNavigate();
 
   return (
     <Card>
@@ -53,7 +56,7 @@ export const ContinueLearning = () => {
                   <Clock className="w-4 h-4" />
                   <span>{lastLesson.timeLeft} to complete</span>
                 </div>
-                <Button className="bg-gradient-to-r from-blue-600 to-green-600">
+                <Button className="bg-gradient-to-r from-blue-600 to-green-600" onClick={() => navigate('/courses/data-analysis-football/dashboard')}>
                   <Play className="w-4 h-4 mr-2" />
                   Continue Learning
                 </Button>
