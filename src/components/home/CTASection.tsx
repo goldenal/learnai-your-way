@@ -28,7 +28,7 @@ const CTASection = () => {
           {/* Header */}
           <div className="mb-12">
             <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-6 border border-white/20">
-              <Gift className="w-4 h-4 text-yellow-400" />
+              <Gift className="w-4 h-4 text-white" />
               <span className="text-sm font-medium text-white">Limited Time Offer</span>
             </div>
 

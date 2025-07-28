@@ -48,7 +48,7 @@ export const GamifiedElements = () => {
       <Card>
         <CardHeader>
           <CardTitle className="flex items-center space-x-2">
-            <Trophy className="w-5 h-5 text-yellow-500" />
+            <Trophy className="w-5 h-5 text-white" />
             <span>Recent Achievements</span>
           </CardTitle>
         </CardHeader>
@@ -89,7 +89,7 @@ export const GamifiedElements = () => {
               user.isUser ? 'bg-blue-50 border border-blue-200' : 'bg-gray-50'
             }`}>
               <div className={`w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold ${
-                user.rank === 1 ? 'bg-yellow-500 text-white' :
+                user.rank === 1 ? 'bg-white text-slate-800' :
                 user.rank === 2 ? 'bg-gray-400 text-white' :
                 user.rank === 3 ? 'bg-orange-500 text-white' : 'bg-gray-300 text-gray-700'
               }`}>

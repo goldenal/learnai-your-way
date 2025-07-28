@@ -40,7 +40,7 @@ const Header = () => {
             </div>
             <div>
               <span className="text-2xl lg:text-3xl font-extrabold bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-transparent drop-shadow-lg tracking-tight">
-                LearnAI
+                Sylliq
               </span>
               <div className="text-sm text-gray-700 font-semibold mt-1 hidden sm:block drop-shadow-sm">
                 Learn Anything, Your Way

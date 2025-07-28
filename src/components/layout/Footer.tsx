@@ -65,7 +65,7 @@ const Footer = () => {
                   <BookOpen className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <span className="text-xl font-bold">LearnAI</span>
+                  <span className="text-xl font-bold">Sylliq</span>
                   <div className="text-sm text-gray-400">Learn Anything, Your Way</div>
                 </div>
               </Link>
@@ -78,7 +78,7 @@ const Footer = () => {
               <div className="space-y-2 text-sm text-gray-400">
                 <div className="flex items-center space-x-2">
                   <Mail className="w-4 h-4" />
-                  <span>hello@learnai.com</span>
+                  <span>hello@sylliq.com</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Phone className="w-4 h-4" />
@@ -116,7 +116,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 py-6">
           <div className="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
             <div className="text-gray-400 text-sm">
-              © {currentYear} LearnAI. All rights reserved.
+              © {currentYear} Sylliq. All rights reserved.
             </div>
             
             <div className="flex items-center space-x-4">

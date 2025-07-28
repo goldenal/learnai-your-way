@@ -38,7 +38,7 @@ const HowItWorksSection = () => {
           </div>
           
           <h2 className="text-3xl lg:text-5xl font-bold mb-6">
-            How <span className="bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-transparent font-extrabold">LearnAI</span> Works
+            How <span className="bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-transparent font-extrabold">Sylliq</span> Works
           </h2>
           
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">

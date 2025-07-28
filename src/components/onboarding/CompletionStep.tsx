@@ -189,7 +189,7 @@ const CompletionStep = () => {
             </h4>
             <div className="flex flex-wrap gap-2">
               {selectedCourse.achievements.map((achievement: string, idx: number) => (
-                <Badge key={idx} className="bg-gradient-to-r from-amber-400 to-orange-500 text-white">
+                <Badge key={idx} className="bg-white text-slate-800">
                   {achievement}
                 </Badge>
               ))}
