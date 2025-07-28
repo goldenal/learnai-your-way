@@ -31,7 +31,7 @@ const CourseDashboard = () => {
     { label: "Learning Efficiency", value: "32% faster", trend: "up", color: "text-green-600" },
     { label: "Engagement Score", value: "94%", trend: "up", color: "text-blue-600" },
     { label: "Retention Rate", value: "87%", trend: "up", color: "text-purple-600" },
-    { label: "Interest Alignment", value: "96%", trend: "stable", color: "text-orange-600" }
+    { label: "Interest Alignment", value: "96%", trend: "stable", color: "text-slate-800" }
   ];
 
   return (

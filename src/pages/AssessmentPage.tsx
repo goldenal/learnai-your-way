@@ -288,7 +288,7 @@ const AssessmentPage = () => {
                 <Card className="bg-gradient-to-r from-purple-50 to-blue-50 border-purple-200">
                   <CardContent className="p-4">
                     <h4 className="font-semibold text-gray-900 mb-2 flex items-center">
-                      <Lightbulb className="h-4 w-4 mr-2 text-orange-500" />
+                      <Lightbulb className="h-4 w-4 mr-2 text-slate-800" />
                       Recommended Next Steps
                     </h4>
                     <ul className="text-sm text-gray-700 space-y-1">

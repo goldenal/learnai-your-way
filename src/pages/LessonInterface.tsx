@@ -173,7 +173,7 @@ const LessonInterface = () => {
           <Card className="bg-white/70 backdrop-blur-sm border-blue-200">
             <CardHeader>
               <CardTitle className="flex items-center space-x-2">
-                <Lightbulb className="h-5 w-5 text-orange-500" />
+                <Lightbulb className="h-5 w-5 text-slate-800" />
                 <span>{lessonSections[currentSection].title}</span>
               </CardTitle>
             </CardHeader>
@@ -368,7 +368,7 @@ const LessonInterface = () => {
           <Card className="bg-white/70 backdrop-blur-sm border-blue-200">
             <CardHeader>
               <CardTitle className="flex items-center space-x-2">
-                <StickyNote className="h-5 w-5 text-orange-500" />
+                <StickyNote className="h-5 w-5 text-slate-800" />
                 <span>Your Playbook Notes</span>
               </CardTitle>
             </CardHeader>

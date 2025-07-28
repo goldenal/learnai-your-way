@@ -115,7 +115,7 @@ const About = () => {
                   </p>
                 </div>
               </div>
-              <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-3xl p-8 border border-red-100">
+              <div className="bg-gradient-to-br from-red-50 to-white rounded-3xl p-8 border border-red-100">
                 <div className="text-center">
                   <div className="text-4xl font-bold text-red-600 mb-4">68%</div>
                   <p className="text-red-800 font-medium mb-4">of online learners never complete their courses</p>

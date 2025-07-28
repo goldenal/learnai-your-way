@@ -195,10 +195,10 @@ const WelcomeStep = () => {
       {selectedInterests.length > 0 && (
         <Card className="bg-white border border-white">
           <CardContent className="p-6">
-            <h4 className="font-semibold text-amber-800 mb-3">
+            <h4 className="font-semibold text-slate-800 mb-3">
               🎯 Personalization Preview
             </h4>
-            <p className="text-amber-700">
+            <p className="text-slate-700">
               Since you're interested in <Badge variant="secondary" className="mx-1">
                 {interests.find(i => i.id === selectedInterests[0])?.label}
               </Badge>, 

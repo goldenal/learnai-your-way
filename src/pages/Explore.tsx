@@ -235,7 +235,7 @@ const Explore = () => {
                               <div className="flex items-center space-x-2 mb-2">
                                 <h3 className="text-xl font-semibold text-gray-900">{course.title}</h3>
                                 {course.trending && (
-                                  <Badge className="bg-orange-100 text-orange-700">
+                                  <Badge className="bg-white text-slate-800">
                                     <TrendingUp className="w-3 h-3 mr-1" />
                                     Trending
                                   </Badge>
@@ -312,7 +312,7 @@ const Explore = () => {
                           <div className="flex items-center space-x-2 mb-1">
                             <h3 className="font-semibold text-gray-900">{category.name}</h3>
                             {category.trending && (
-                              <Badge variant="secondary" className="bg-orange-100 text-orange-700">
+                              <Badge variant="secondary" className="bg-white text-slate-800">
                                 <TrendingUp className="w-3 h-3 mr-1" />
                                 Hot
                               </Badge>
@@ -334,7 +334,7 @@ const Explore = () => {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center space-x-2">
-                  <TrendingUp className="w-5 h-5 text-orange-500" />
+                  <TrendingUp className="w-5 h-5 text-slate-800" />
                   <span>Trending This Week</span>
                 </CardTitle>
               </CardHeader>
