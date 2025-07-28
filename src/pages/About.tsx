@@ -143,7 +143,7 @@ const About = () => {
                 <h2 className="text-3xl lg:text-4xl font-bold mb-6">Our Revolutionary Solution</h2>
                 <div className="space-y-4 text-lg text-slate-600">
                   <p>
-                    Sylliq uses advanced artificial intelligence to understand each learner's interests, 
+                    Imoye uses advanced artificial intelligence to understand each learner's interests, 
                     passions, and learning style, then dynamically generates personalized content.
                   </p>
                   <p>

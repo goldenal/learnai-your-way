@@ -28,10 +28,10 @@ const Onboarding = () => {
       title: 'Choose Your First Course',
       subtitle: 'Based on your profile, here are personalized course recommendations.'
     },
-    'complete': {
+      'complete': {
       component: CompletionStep,
       currentStep: 4,
-      title: 'Welcome to Sylliq!',
+      title: 'Welcome to Imoye!',
       subtitle: 'Your personalized learning journey is ready to begin.'
     }
   };
