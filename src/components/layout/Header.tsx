@@ -94,7 +94,7 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="lg:hidden absolute top-full left-0 right-0 bg-white shadow-lg border-t">
+          <div className="lg:hidden absolute top-full left-0 right-0 bg-white shadow-lg border-t border-slate-300">
             <div className="px-4 py-6 space-y-4">
               {navLinks.map((link) => (
                 <Link

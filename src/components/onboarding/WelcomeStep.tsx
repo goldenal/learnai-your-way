@@ -216,7 +216,7 @@ const WelcomeStep = () => {
         <Button
           onClick={handleContinue}
           disabled={!canContinue}
-          className="px-8 py-3 text-lg gradient-primary disabled:opacity-50"
+          className="px-8 py-3 text-lg gradient-primary text-white border border-slate-300 disabled:opacity-50"
         >
           Continue to Preferences
         </Button>
