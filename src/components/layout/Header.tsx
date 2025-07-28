@@ -72,11 +72,8 @@ const Header = () => {
             </Link>
             <Link to="/onboarding/welcome">
               <Button
-                className="font-medium hover-lift text-white shadow-lg px-6 py-2"
-                style={{
-                  background: 'linear-gradient(90deg, #2563eb 0%, #7c3aed 50%, #ec4899 100%)', // blue-600, purple-600, pink-500
-                  border: 'none',
-                }}
+                className="font-medium hover-lift text-white shadow-lg px-6 py-2 bg-blue-600 border-none"
+                style={{}}
               >
                 Start Learning
               </Button>
@@ -107,7 +104,7 @@ const Header = () => {
                   <span className="font-medium">{link.label}</span>
                 </Link>
               ))}
-              <div className="pt-4 border-t space-y-3">
+              <div className="pt-4 border-t border-slate-300 space-y-3">
                 <Link to="/login" onClick={() => setIsMenuOpen(false)} className="block">
                   <Button variant="ghost" className="w-full justify-start">
                     <User className="w-4 h-4 mr-2" />
@@ -115,7 +112,7 @@ const Header = () => {
                   </Button>
                 </Link>
                 <Link to="/onboarding/welcome" onClick={() => setIsMenuOpen(false)} className="block">
-                  <Button className="w-full gradient-primary">
+                  <Button className="w-full bg-blue-600 text-white">
                     Start Learning
                   </Button>
                 </Link>
