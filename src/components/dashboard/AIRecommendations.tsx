@@ -55,7 +55,7 @@ export const AIRecommendations = () => {
                 <div className="flex items-center space-x-2 mb-2">
                   <h3 className="font-semibold text-gray-900">{course.title}</h3>
                   {course.trending && (
-                    <Badge variant="secondary" className="bg-orange-100 text-orange-700">
+                    <Badge variant="secondary" className="bg-white text-slate-800">
                       <TrendingUp className="w-3 h-3 mr-1" />
                       Trending
                     </Badge>

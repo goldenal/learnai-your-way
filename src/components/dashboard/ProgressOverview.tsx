@@ -20,7 +20,7 @@ export const ProgressOverview = () => {
       nextLesson: "Correlation in Cooking Times",
       timeLeft: "4 lessons left", 
       theme: "👨‍🍳",
-      color: "bg-orange-500"
+      color: "bg-white"
     },
     {
       course: "Project Management through Team Strategy",

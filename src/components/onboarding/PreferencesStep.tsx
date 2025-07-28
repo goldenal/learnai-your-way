@@ -196,14 +196,14 @@ const PreferencesStep = () => {
               key={option.id}
               className={`cursor-pointer transition-all duration-300 ${
                 notifications.includes(option.id)
-                  ? 'ring-2 ring-amber-500 bg-amber-50 border-amber-200'
-                  : 'hover:border-amber-300 hover:bg-amber-50/50'
+                  ? 'ring-2 ring-white bg-white border-white'
+                  : 'hover:border-white hover:bg-white/50'
               }`}
               onClick={() => toggleNotification(option.id)}
             >
               <CardContent className="p-4 flex items-center space-x-3">
                 <option.icon className={`w-6 h-6 ${
-                  notifications.includes(option.id) ? 'text-amber-600' : 'text-slate-500'
+                  notifications.includes(option.id) ? 'text-slate-800' : 'text-slate-500'
                 }`} />
                 <span className="font-medium text-slate-700">
                   {option.label}

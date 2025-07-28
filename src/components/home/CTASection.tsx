@@ -115,7 +115,7 @@ const CTASection = () => {
             </p>
             
             <Link to="/register">
-              <Button size="lg" className="bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600 text-slate-900 text-xl px-12 py-6 hover-lift animate-pulse-glow font-bold">
+              <Button size="lg" className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white text-xl px-12 py-6 hover-lift animate-pulse-glow font-bold">
                 Get Started Now - It's Free!
                 <ArrowRight className="w-6 h-6 ml-2" />
               </Button>

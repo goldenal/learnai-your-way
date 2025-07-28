@@ -32,7 +32,7 @@ const FeaturesSection = () => {
       icon: Zap,
       title: 'Real-Time Content Generation',
       description: 'Course materials are generated and updated in real-time to stay relevant to your evolving interests.',
-      gradient: 'from-orange-500 to-red-600',
+      gradient: 'from-blue-500 to-red-600',
     },
     {
       icon: Heart,

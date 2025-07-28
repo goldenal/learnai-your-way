@@ -27,7 +27,7 @@ export const PersonalizedGreeting = () => {
           <div className="mt-6 md:mt-0 flex flex-col sm:flex-row gap-4">
             <Card className="bg-white/10 border-white/20">
               <CardContent className="flex items-center space-x-3 p-4">
-                <Flame className="w-5 h-5 text-orange-300" />
+                <Flame className="w-5 h-5 text-slate-800" />
                 <div>
                   <p className="text-sm text-blue-100">Learning Streak</p>
                   <p className="text-xl font-bold">7 Days</p>

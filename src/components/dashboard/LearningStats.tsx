@@ -34,8 +34,8 @@ export const LearningStats = () => {
       label: 'Skills Acquired',
       value: '12',
       subtext: 'This quarter',
-      color: 'text-orange-600',
-      bg: 'bg-orange-100'
+      color: 'text-slate-800',
+      bg: 'bg-white'
     }
   ];
 

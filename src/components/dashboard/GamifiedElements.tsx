@@ -26,17 +26,17 @@ export const GamifiedElements = () => {
       <Card>
         <CardHeader>
           <CardTitle className="flex items-center space-x-2">
-            <Flame className="w-5 h-5 text-orange-500" />
+            <Flame className="w-5 h-5 text-slate-800" />
             <span>Learning Streak</span>
           </CardTitle>
         </CardHeader>
         <CardContent>
           <div className="text-center">
-            <div className="text-4xl font-bold text-orange-500 mb-2">7</div>
+            <div className="text-4xl font-bold text-slate-800 mb-2">7</div>
             <p className="text-gray-600 mb-4">Days in a row! 🔥</p>
             <div className="flex justify-center space-x-1 mb-4">
               {[...Array(7)].map((_, i) => (
-                <div key={i} className="w-4 h-4 bg-orange-500 rounded-full"></div>
+                <div key={i} className="w-4 h-4 bg-white rounded-full"></div>
               ))}
             </div>
             <p className="text-sm text-gray-500">Keep it up! Next milestone: 14 days</p>
@@ -91,7 +91,7 @@ export const GamifiedElements = () => {
               <div className={`w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold ${
                 user.rank === 1 ? 'bg-white text-slate-800' :
                 user.rank === 2 ? 'bg-gray-400 text-white' :
-                user.rank === 3 ? 'bg-orange-500 text-white' : 'bg-gray-300 text-gray-700'
+                user.rank === 3 ? 'bg-white text-slate-800' : 'bg-gray-300 text-gray-700'
               }`}>
                 {user.rank}
               </div>
