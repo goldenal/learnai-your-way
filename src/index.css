@@ -205,3 +205,9 @@ button:focus {
   box-shadow: none !important;
   border-color: #e2e8f0 !important;
 }
+
+button:focus, button:active, button:visited {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #e2e8f0 !important; /* slate-300 */
+}
