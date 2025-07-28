@@ -40,7 +40,7 @@ export const ActivityFeed = () => {
       description: 'Football Analytics Champion badge earned',
       time: '3 days ago',
       context: '🏆 Achievement',
-      color: 'text-yellow-600'
+      color: 'text-white'
     },
     {
       type: 'course',

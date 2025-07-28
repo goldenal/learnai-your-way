@@ -79,7 +79,7 @@ export const AIRecommendations = () => {
               
               <div className="text-right ml-4">
                 <div className="flex items-center space-x-1 mb-2">
-                  <Star className="w-4 h-4 text-yellow-500 fill-current" />
+                  <Star className="w-4 h-4 text-white fill-current" />
                   <span className="text-sm font-medium">{course.matchScore}% match</span>
                 </div>
                 <Button size="sm" className="bg-gradient-to-r from-purple-600 to-blue-600">
