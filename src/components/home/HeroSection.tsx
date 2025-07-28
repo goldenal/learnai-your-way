@@ -96,7 +96,7 @@ const HeroSection = () => {
                 </Button>
               </Link>
               
-              <Button size="lg" variant="outline" className="text-lg px-8 py-4 hover-lift bg-white/80 backdrop-blur-sm">
+              <Button size="lg" variant="outline" className="text-lg px-8 py-4 hover-lift bg-white/80 backdrop-blur-sm border-slate-300 focus:outline-none focus:border-slate-400">
                 <Play className="w-5 h-5 mr-2" />
                 Watch Demo
               </Button>
