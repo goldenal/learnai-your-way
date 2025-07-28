@@ -113,7 +113,7 @@ const WelcomeStep = () => {
           {interests.map((interest) => (
             <Card
               key={interest.id}
-              className={`cursor-pointer transition-all duration-300 hover:scale-105 ${
+              className={`cursor-pointer transition-all duration-300 hover:scale-105 border-slate-300 ${
                 selectedInterests.includes(interest.id)
                   ? 'ring-2 ring-blue-500 bg-blue-50 border-blue-200'
                   : 'hover:border-blue-300 hover:bg-blue-50/50'
@@ -142,7 +142,7 @@ const WelcomeStep = () => {
           {goals.map((goal) => (
             <Card
               key={goal.id}
-              className={`cursor-pointer transition-all duration-300 ${
+              className={`cursor-pointer transition-all duration-300 border-slate-300 ${
                 selectedGoals.includes(goal.id)
                   ? 'ring-2 ring-purple-500 bg-purple-50 border-purple-200'
                   : 'hover:border-purple-300 hover:bg-purple-50/50'
