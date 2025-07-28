@@ -277,7 +277,7 @@ const CourseResources = () => {
                         <Badge variant="outline">{resource.type}</Badge>
                         <span className="text-xs text-gray-500">{resource.size}</span>
                         <div className="flex items-center">
-                          <Star className="h-3 w-3 text-yellow-500 mr-1" />
+                          <Star className="h-3 w-3 text-white mr-1" />
                           <span className="text-xs text-gray-600">{resource.rating}</span>
                         </div>
                       </div>
@@ -320,7 +320,7 @@ const CourseResources = () => {
                       <div className="flex items-center space-x-2 mb-2">
                         <Badge variant="outline">{link.category}</Badge>
                         <div className="flex items-center">
-                          <Star className="h-3 w-3 text-yellow-500 mr-1" />
+                          <Star className="h-3 w-3 text-white mr-1" />
                           <span className="text-xs text-gray-600">{link.rating}</span>
                         </div>
                       </div>
@@ -409,7 +409,7 @@ const CourseResources = () => {
                       <div className="flex items-center space-x-2">
                         <Badge variant="outline" className="text-xs">{faq.category}</Badge>
                         <div className="flex items-center text-xs text-gray-500">
-                          <Star className="h-3 w-3 text-green-500 mr-1" />
+                          <Star className="h-3 w-3 text-white mr-1" />
                           {faq.votes} helpful
                         </div>
                       </div>

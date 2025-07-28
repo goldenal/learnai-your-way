@@ -141,7 +141,7 @@ const AssessmentPage = () => {
     return (
       <div className="space-y-6">
         {/* Results Header */}
-        <Card className={`border-0 ${score >= 80 ? 'bg-gradient-to-r from-green-600 to-blue-600' : score >= 60 ? 'bg-gradient-to-r from-yellow-500 to-orange-500' : 'bg-gradient-to-r from-red-500 to-pink-500'} text-white`}>
+        <Card className={`border-0 ${score >= 80 ? 'bg-gradient-to-r from-green-600 to-blue-600' : score >= 60 ? 'bg-white' : 'bg-gradient-to-r from-red-500 to-pink-500'} text-white`}>
           <CardContent className="p-6">
             <div className="text-center">
               <div className="text-6xl mb-4">

@@ -213,7 +213,7 @@ const CourseSelectionStep = () => {
                           {course.title}
                         </h3>
                         {index === 0 && (
-                          <Badge className="bg-gradient-to-r from-amber-400 to-orange-500 text-white">
+                          <Badge className="bg-white text-slate-800">
                             Best Match
                           </Badge>
                         )}
@@ -233,7 +233,7 @@ const CourseSelectionStep = () => {
                           <span>{course.students} enrolled</span>
                         </div>
                         <div className="flex items-center space-x-1">
-                          <Star className="w-4 h-4 text-yellow-500" />
+                          <Star className="w-4 h-4 text-white" />
                           <span>{course.rating}</span>
                         </div>
                         <Badge variant="outline">{course.difficulty}</Badge>

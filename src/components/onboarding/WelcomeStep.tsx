@@ -193,7 +193,7 @@ const WelcomeStep = () => {
 
       {/* Example Preview */}
       {selectedInterests.length > 0 && (
-        <Card className="bg-gradient-to-r from-amber-50 to-orange-50 border-amber-200">
+        <Card className="bg-white border border-white">
           <CardContent className="p-6">
             <h4 className="font-semibold text-amber-800 mb-3">
               🎯 Personalization Preview

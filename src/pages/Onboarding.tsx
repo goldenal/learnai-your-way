@@ -31,7 +31,7 @@ const Onboarding = () => {
     'complete': {
       component: CompletionStep,
       currentStep: 4,
-      title: 'Welcome to LearnAI!',
+      title: 'Welcome to Sylliq!',
       subtitle: 'Your personalized learning journey is ready to begin.'
     }
   };

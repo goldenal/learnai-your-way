@@ -261,11 +261,11 @@ const Explore = () => {
                             
                             <div className="text-right">
                               <div className="flex items-center space-x-1 mb-2">
-                                <Star className="w-4 h-4 text-yellow-500 fill-current" />
+                                <Star className="w-4 h-4 text-white fill-current" />
                                 <span className="font-medium">{course.matchScore}% match</span>
                               </div>
                               <div className="flex items-center space-x-1 text-sm text-gray-600">
-                                <Star className="w-3 h-3 text-yellow-500 fill-current" />
+                                <Star className="w-3 h-3 text-white fill-current" />
                                 <span>{course.rating}</span>
                               </div>
                             </div>

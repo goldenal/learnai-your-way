@@ -180,7 +180,7 @@ const MyCourses = () => {
                       <div className="flex items-center space-x-2">
                         <Badge variant="secondary">{course.difficulty}</Badge>
                         <div className="flex items-center space-x-1">
-                          <Star className="w-3 h-3 text-yellow-500 fill-current" />
+                          <Star className="w-3 h-3 text-white fill-current" />
                           <span className="text-xs text-gray-600">{course.rating}</span>
                         </div>
                       </div>
@@ -294,7 +294,7 @@ const MyCourses = () => {
                         <Badge variant="secondary">{course.difficulty}</Badge>
                         <span className="text-sm text-gray-500">{course.duration}</span>
                         <div className="flex items-center space-x-1">
-                          <Star className="w-3 h-3 text-yellow-500 fill-current" />
+                          <Star className="w-3 h-3 text-white fill-current" />
                           <span className="text-xs">{course.rating}</span>
                         </div>
                       </div>
