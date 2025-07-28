@@ -109,7 +109,7 @@ const Header = () => {
               ))}
               <div className="pt-4 border-t space-y-3">
                 <Link to="/login" onClick={() => setIsMenuOpen(false)} className="block">
-                  <Button variant="outline" className="w-full justify-start">
+                  <Button variant="ghost" className="w-full justify-start">
                     <User className="w-4 h-4 mr-2" />
                     Sign In
                   </Button>
