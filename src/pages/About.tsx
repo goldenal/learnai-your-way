@@ -12,7 +12,7 @@ const About = () => {
       name: 'Adeosun Adewale',
       role: 'Project Lead, Fullstack Engineer',
       background: 'Lead engineer Vesti',
-      image: 'https://images.unsplash.com/photo-1494790108755-2616b332c647?w=300&h=300&fit=crop&crop=face',
+      image: 'https://image90108755-2616b332c647?w=300&h=300&fit=crop&crop=face',
       bio: 'Senior software engineer with 7+ years in experience.',
     },
     {
